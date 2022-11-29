@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://i.pinimg.com/564x/dd/fb/f4/ddfbf4bf28fc758e449e473060eb3825.jpg");
+            background-repeat: no-repeat;
+            background-position-y: top;
+            background-position-x: center;
+            background-size: 40%;         
+
+            color: black;
+        
+        }
+
+
+        .time{
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .greeting{
+            font-size: 25px;
+        }
+
+        .todo{
+            font-size: 40px;
+        }
+
+        .author{
+            font-size: 25px;
+            font-style: normal;
+            font-weight: bold;
+        }
+
+        .main{
+            width: 100vw;
+            height: 80vh;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: top;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+            font-weight: bolder;
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center  
+        }
+
+
+
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main"> 
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">俺達は血液だ。滞り無く流れろ。酸素を回せ、脳が正常に働くために。</div>
+        <div class="todo"></div>
+
+
+    </div>
+    <div class="quote">
+        <div class="author"> </div>
+        <div class="content">  </div>
+    </div>
+    
+</body>
+
+</html>
